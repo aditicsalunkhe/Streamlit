@@ -3,7 +3,7 @@ import smtplib
 from email.mime.text import MIMEText
 
 # === Config ===
-SECRET_TOKEN = "your-shared-token"  # Change this!
+SECRET_TOKEN = 123  # Change this!
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
 SMTP_USER = "your-email@example.com"
