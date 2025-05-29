@@ -10,7 +10,7 @@ SMTP_USER = "your-email@example.com"
 SMTP_PASSWORD = "your-app-password"  # Use an app password (not your Gmail password!)
 
 # === Get query params ===
-params = st.experimental_get_query_params()
+params = st.query_params()
 to_email = params.get("to", [None])[0]
 subject = params.get("subject", [None])[0]
 body = params.get("body", [None])[0]
